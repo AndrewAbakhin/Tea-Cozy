@@ -79,3 +79,42 @@ color: seashell;
 .flavor {
   margin-right: 25px;
 }
+
+.location {
+  background-image: url("../images/location.jpg");
+  background-size: cover;
+  position: relative;
+  top: 125px;
+  width: 1200px;
+  height: 500px;
+  /* may need to keep to visually keep picture full*/
+  padding-bottom: 150px;
+}
+
+
+.address {
+  background-color: black;
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  width: 300px;
+  flex-direction: column;
+  margin: 0 20px 0 20px;
+}
+
+.address span {
+  margin: 20px;
+}
+
+.location2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+  top: 100px;
+}
+
+.location1 {
+  position: relative;
+  top: 75px;
+}
