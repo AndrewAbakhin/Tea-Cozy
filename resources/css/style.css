@@ -87,8 +87,7 @@ color: seashell;
   top: 125px;
   width: 1200px;
   height: 500px;
-  /* may need to keep to visually keep picture full*/
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 
 
@@ -111,10 +110,36 @@ color: seashell;
   justify-content: center;
   margin-top: 15px;
   position: relative;
-  top: 100px;
+  top: 85px;
 }
 
 .location1 {
   position: relative;
-  top: 75px;
+  top: 50px;
+}
+
+.footer {
+  position: relative;
+  top: 200px;
+  display: block;;
+  text-align: left;
+  align-items: center;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info h5 {
+  margin: 20px;
+}
+
+#copyright {
+  display: block;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 40px;
 }
